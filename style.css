@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;}
+
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    color: #33A8DB;
+}
+h2{
+    color: #33A8DB;
+    font-size: 32px;
+}
+
+p{
+    color: #ffff;
+    font-size: 20px;
+}
+.banner{
+    background-image: linear-gradient(hsla(0, 0%, 2%, 0.6), #102735),url("/assets/images/banner.png");
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.banner-content{
+    width: 510px;
+    height: 393px;
+    padding: 56px 465px;
+    gap: 16px;
+}
+button{
+    font-size: 16px;
+    color: #31A8DD;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #31A8DD;
+    height: 57px;
+    width: 326px;   
+}
+
+#course-content{
+    width: 792px;
+    height: 325px;
+    padding: 72px 324px;
+    gap: 24px;
+}
+.module{
+    background-color: #252525;
+    border-radius: 57px;
+    border: 1px;
+    border-color: #31A8DD;
+    margin-bottom: 24px;
+    height: 51px;
+    width: 532px;
+    margin-left: 128px;
+}
+#transform-world{
+    height: 363px;
+    background-image: url("/assets/images/woman-code.png");
+    background-size:  ;
+}
